@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: flag-management-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/flag_management_service
+    username: postgres
+    password: docker
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
